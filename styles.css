@@ -1,0 +1,179 @@
+/** GENERAL **/
+
+body{
+    margin:0 0 100px 0;
+}
+
+nav{
+    display: flex;
+    background-color: #1f1f1f;
+    justify-content: space-between;
+    font-size: 2em;
+    align-items: center;
+}
+section{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+/** ATHLETE **/
+.basket{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1em;
+    color : #28e28a;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 50px 0 ;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    font-size: 2em;
+    color : white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.paragraphe{
+    border: 1px solid #1f1f1f; padding: 5px;
+    border-radius: 1%;
+    width: 500px;
+}
+.lebron > a, .steph > a, .mj > a{
+    text-align: center;
+    font-size : 1.8em;
+    color : #1f1f1f;
+    text-decoration: none;
+    line-height : 3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color : #1f1f1f;
+    margin-left: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+}
+.images{
+    margin: 25px;
+    filter: grayscale(100%);
+    border-radius: 1%;
+}
+.athletes{
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.athletes-title{
+    text-decoration: none;
+    font-size: 2em;
+}
+.athletes-container{
+    display: flex;
+    justify-content:space-between;
+}
+.lebron, .steph, .mj{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    background-color: #28e28a;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    color: #1f1f1f;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif
+}
+.rules-title{
+    color : #1f1f1f;
+    font-size: 40px;
+    margin-left: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+/**RULES**/
+.rulesPage{
+    display: flex;
+}
+
+.rulesPage > div {
+    position: relative;
+    margin-left: 140px;
+}
+
+.man {
+    position: absolute;
+}
+
+.jersey1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, 125%);
+}
+.jersey2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(113%, 130%);
+}
+.rulesTxt{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1em;
+    color : #28e28a;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 50px 0 ;
+    margin-left: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.codeTxt{
+    text-decoration : none;
+    font-size: 1em;
+    color : #1f1f1f;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.codeInterface{
+    display: flex;
+    justify-content: flex-start ;
+    flex-direction: column;
+}
+.codeTxtInterface{
+    font-size: 2em;
+    color: #28e28a;
+}
+.monCode{
+    color: black;   
+}
+.codeTxtAccueil{
+    font-size: 2em;
+    color: #28e28a;
+}
+.codeHTML{
+    flex-direction: column;
+}
+.codeCSS{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.codeCSSInterface{
+    font-size: 2em;
+    color: #28e28a;
+}
